@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/stack-sharpshooters/",
+    "build": "vite build --base=/html-css-fson-100-Parapoy/",
     "preview": "vite preview"
   },
   "devDependencies": {
