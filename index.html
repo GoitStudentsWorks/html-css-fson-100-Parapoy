@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/html-css-fson-100-Parapoy/assets/apple-touch-icon-03f70857.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="data:image/png;base64,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"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABj1BMVEXs2Xnr2XgAAADs2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xns2Xn///9tNGYXAAAAhHRSTlMAAAAWBS4bBxMvGAYtKGPAOR+WJWdrCoqtKnZvzE4McJ+StmiANxShrivUUQFSuFM8jpuigT06ISxLRBkLBBE1caoOHVWIWlS8DWk7kRqQV3N6NEpQf4mLnjgpjFZCgkbdp1iPdbtDoz9gcjYJ1blMFxykbM1PbmSgfaxhHpMjaqt3FRJH7SY8AAAAAWJLR0SEYtBacQAAAAd0SU1FB+cLGQo2BvC8GQgAAAEOSURBVBjTHcKJV8EAAAfgn6wpU6yYdCgWtRxrhcqEyEQ2HUKSypFKh07dl3+89/reBzXRS0LT979fS+kwMKg3gB4aNprAmEcsoxgbn7BOGqdsdnba4ZyZ5TDngtvj5Q3zwoIa6kUf/O7Aktu5vBIUQ6vBsBiBCtG1WNy2npCQ3BDRg1TalNjM8JCVLLu1vZPCruTN7fFEMC7nXYXifhHm0kE5SjOJQ0jlSvboGNr8SdVYkxmqXPPUG/5TEHGpQWcFklfEepMLA2eq9DmhZS8qrUtaIUUHrvgYlbyu5m6EYjt0e+fD/cOj9anznLGzLy1n89WC0ps+gPePz84XmMJ36Qe/BCeD6kLTBaVrU9wfipc2ejI2odgAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjMtMTEtMjVUMTA6NTQ6MDYrMDA6MDCvZ+UJAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIzLTExLTI1VDEwOjU0OjA2KzAwOjAw3jpdtQAAAFd6VFh0UmF3IHByb2ZpbGUgdHlwZSBpcHRjAAB4nOPyDAhxVigoyk/LzEnlUgADIwsuYwsTIxNLkxQDEyBEgDTDZAMjs1Qgy9jUyMTMxBzEB8uASKBKLgDqFxF08kI1lQAAAABJRU5ErkJggg=="
+    />
+    <link rel="manifest" href="data:application/manifest+json;base64,ewogICAgIm5hbWUiOiAiIiwKICAgICJzaG9ydF9uYW1lIjogIiIsCiAgICAiaWNvbnMiOiBbCiAgICAgICAgewogICAgICAgICAgICAic3JjIjogIi9hbmRyb2lkLWNocm9tZS0xOTJ4MTkyLnBuZyIsCiAgICAgICAgICAgICJzaXplcyI6ICIxOTJ4MTkyIiwKICAgICAgICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgICAic3JjIjogIi9hbmRyb2lkLWNocm9tZS01MTJ4NTEyLnBuZyIsCiAgICAgICAgICAgICJzaXplcyI6ICI1MTJ4NTEyIiwKICAgICAgICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIgogICAgICAgIH0KICAgIF0sCiAgICAidGhlbWVfY29sb3IiOiAiI2ZmZmZmZiIsCiAgICAiYmFja2dyb3VuZF9jb2xvciI6ICIjZmZmZmZmIiwKICAgICJkaXNwbGF5IjogInN0YW5kYWxvbmUiCn0K" />
+    <link
+      rel="mask-icon"
+      href="/html-css-fson-100-Parapoy/assets/safari-pinned-tab-27b2687c.svg"
+      color="#0b4454"
+    />
+    <meta name="msapplication-TileColor" content="#2b5797" />
+    <meta name="theme-color" content="#0b104b" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>stack-sharpshooters</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Manrope:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+
+    
+    <script type="module" crossorigin src="/html-css-fson-100-Parapoy/commonHelpers.js"></script>
+    <link rel="stylesheet" href="/html-css-fson-100-Parapoy/assets/index-0af2d92c.css">
+  </head>
+  <body>
+    <header>
+  <div class="container">
+    <nav>
+      <div class="header-info">
+        <a href="./index.html">
+          <img
+            class="header-logo"
+            src="/html-css-fson-100-Parapoy/assets/logo-ca1ea9a5.svg"
+            width="44"
+            height="39"
+            alt="logo"
+          />
+        </a>
+
+        <ul class="header-list">
+          <li class="header-item">
+            <a class="header-link current" href="#about-us">About us</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link" href="#our-collection">Our collection </a>
+          </li>
+          <li class="header-item">
+            <a class="header-link" href="#your-order">Customer order</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link" href="#testimonials">Testimonials</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <address>
+      <div class="contacts-list">
+        <div class="contacts-number">
+          <a href="tel:+380684439426" class="contacts">+380 (68) 443-94-26</a>
+        </div>
+
+        <div class="header-socials">
+          <a
+            href="https://www.facebook.com/goITclub/"
+            class="header-button"
+            target="_blank"
+          >
+            <svg width="28" height="28" class="icon">
+              <use href="/html-css-fson-100-Parapoy/assets/icons-1e82c8d5.svg#icon-facebook"></use>
+            </svg>
+          </a>
+
+          <a
+            href="https://www.instagram.com/goitclub/"
+            class="header-button"
+            target="_blank"
+          >
+            <svg width="28" height="28" class="icon">
+              <use href="/html-css-fson-100-Parapoy/assets/icons-1e82c8d5.svg#icon-instagram"></use>
+            </svg>
+          </a>
+
+          <a
+            href="https://www.youtube.com/c/GoIT"
+            class="header-button"
+            target="_blank"
+          >
+            <svg width="28" height="28" class="icon">
+              <use href="/html-css-fson-100-Parapoy/assets/icons-1e82c8d5.svg#icon-youtube"></use>
+            </svg>
+          </a>
+
+          <button type="button" class="menu-button">
+            <img
+              src="/html-css-fson-100-Parapoy/assets/header_menu_icon-68fd37bf.svg"
+              width="44"
+              height="30"
+              alt="menu"
+            />
+          </button>
+        </div>
+      </div>
+    </address>
+  </div>
+</header>
+
+    <main>
+      
+    <section class="hero-sec">
+      <div class="hero-container">
+      
+          <h1 class="hero-text">
+            Reviving the traditional
+            <span class="yellow-text">Ukrainian</span> artistry in every stitch.
+          </h1>
+        
+
+        <div class="star-container">
+          <svg class="star-icon">
+            <use href="/html-css-fson-100-Parapoy/assets/icons-1e82c8d5.svg#icon-star"></use>
+          </svg>
+          <p class="icon-text">all embroidery is made by hand</p>
+        </div>
+        
+       
+          <button class="order-btn" href="/your-order.html">
+            Order
+            <svg class="btn-icon" width="26" heigh="10">
+              <use href="/html-css-fson-100-Parapoy/assets/icons-1e82c8d5.svg#icon-arrow"></use>
+            </svg>
+          </button>
+        
+      
+      
+        
+          <picture class="first-pic">
+            <source media="(min-width: 1280px)" srcset="/html-css-fson-100-Parapoy/assets/desk_hero_img@1x-c35264a0.jpg 1x, /html-css-fson-100-Parapoy/assets/desk_hero_img@2x-406534d6.jpg 2x"/>
+            <source media="(min-width: 768px)" srcset="/html-css-fson-100-Parapoy/assets/tab_hero_img@1x-ec9760a7.jpg 1x, /html-css-fson-100-Parapoy/assets/tab_hero_img@2x-a0bc6695.jpg 2x"/>
+            <source media="(min-width: 375px)" srcset="/html-css-fson-100-Parapoy/assets/mob_hero_img@1x-2b008384.jpg 1x, /html-css-fson-100-Parapoy/assets/mob_hero_img@2x-5d58c50f.jpg 2x"/>
+
+            <img
+              src="/html-css-fson-100-Parapoy/assets/desk_hero_img@1x-c35264a0.jpg"
+              alt="photo of girl"
+              width="100%"
+              height="100%"            
+            />
+          </picture>
+          
+     
+
+       
+          <picture class="second-img-container">
+            <source
+              srcset="/html-css-fson-100-Parapoy/assets/tab_hero_second_img-0840ecb2.jpg 1x, /html-css-fson-100-Parapoy/assets/tab_hero_second_img@2x-7505dc17.jpg 2x"
+            />
+            <source
+              srcset="/html-css-fson-100-Parapoy/assets/desk_hero_second_img-96cf5290.jpg 1x, /html-css-fson-100-Parapoy/assets/desk_hero_second_img@2x-79ac7c33.jpg 2x"
+            />
+            <img
+              src="./img/tab/hero/tab_hero_second_img.jpg "
+              alt="photo of t-shirt"
+              width="157"
+              height="191"
+              class="second-img"
+            />
+          </picture>
+        
+      </div>
+      </div>
+    </div>
+    </section>
+  </body>
+</html>
+
+      <section class="about" id="about-us">
+    <div class="container-about">
+        <div class="about-text">
+            <h2 class="about-title">About Us</h2>
+            <p class="about-description-store">The store "Vyshyvanka Vibes" is a place where traditional Ukrainian
+                vyshyvanka comes to life with new zest and style.
+                Our store offers a wide selection of high-quality and authentic embroidery, which combines the elegance
+                of traditional
+                needlework and modern design.</p>
+            <p class="about-description">In "Vyshyvanka Vibes" you will find various models of embroidery, from classic
+                to modern, corresponding to the latest
+                fashion trends. Our embroidery is made using natural fabrics and is embroidered by highly qualified
+                craftsmen who convey
+                the beauty of Ukrainian culture in every detail.We believe that vyshyvanka is not just clothing, but a
+                symbol of
+                national pride, the heritage of our ancestors and a way of expressing one's individuality. Each
+                embroidery from
+                "Vyshyvanka Vibes" has its own unique history and symbolism, which gives it a special meaning.</p>
+        </div>
+        <div class="about-menu">
+            <picture>
+                <source srcset="/html-css-fson-100-Parapoy/assets/desk_about-72a5271a.jpg 1x, /html-css-fson-100-Parapoy/assets/desk_about@2x-6fb6aa43.jpg 2x" media="(min-width: 1280px)" />
+                <source srcset="/html-css-fson-100-Parapoy/assets/tab_about-255b3672.jpg 1x, /html-css-fson-100-Parapoy/assets/tab_about2x-9c731674.jpg 2x"
+                    media="(min-width: 768px)" />
+                <source srcset="/html-css-fson-100-Parapoy/assets/mob_about-516cbe68.jpg 1x, /html-css-fson-100-Parapoy/assets/mob_about2x-c91be55b.jpg 2x" media="(max-width: 768px)" />
+                <img src="/html-css-fson-100-Parapoy/assets/desk_about-72a5271a.jpg" alt="about_us" class="about-foto" />
+            </picture>
+        </div>
+    </div>
+</section>
+      <section class="collection-section" id="our-collection">
+    <div class="container-collection">
+        <h2 class="collection-name ">Our collection</h2>
+        <ul class="collection-list">
+            <li class="collection-item">
+                <div class="wrapper-imag-collection">
+                    <img srcset="/html-css-fson-100-Parapoy/assets/mob_collection_img1-ae0ad732.jpg 335w, /html-css-fson-100-Parapoy/assets/tab_collection_img1-0bc00ab1.jpg 342w, /html-css-fson-100-Parapoy/assets/desk_collection_img1-5ecb3f9e.jpg 347w, /html-css-fson-100-Parapoy/assets/mob_collection_img1@2x-5fb148be.jpg 670w, /html-css-fson-100-Parapoy/assets/tab_collection_img1@2x-da135aac.jpg 684w, /html-css-fson-100-Parapoy/assets/desk_collection_img1@2x-946f8593.jpg 694w"
+                        sizes="(min-width: 1280px) 347px, (min-width: 768px) 342px, (min-width: 375px) 335px"
+                        src="/html-css-fson-100-Parapoy/assets/desk_collection_img1-5ecb3f9e.jpg" alt="black women's blouse" width="347"
+                        class="photo-blous">
+                </div>
+                <div class="wrapper-about">
+                    <h3 class="product-name">AUGUST Poltava women's blouseRING</h3>
+                    <p class="price-product">3300 UAH</p>
+                </div>
+            </li>
+            <li class="collection-item">
+                <div class="wrapper-imag-collection">
+                    <img srcset="/html-css-fson-100-Parapoy/assets/mob_collection_img2-88dc8246.jpg 335w, /html-css-fson-100-Parapoy/assets/tab_collection_img2-4859e812.jpg 342w, /html-css-fson-100-Parapoy/assets/desk_collection_img2-b905b76e.jpg 347w, /html-css-fson-100-Parapoy/assets/mob_collection_img2@2x-4bd0f0ff.jpg 670w, /html-css-fson-100-Parapoy/assets/tab_collection_img2@2x-d22a8b2d.jpg 684w, /html-css-fson-100-Parapoy/assets/desk_collection_img2@2x-d873ac2f.jpg 694w"
+                        sizes="(min-width: 1280px) 347px, (min-width: 768px) 342px, (min-width: 375px) 335px"
+                        src="/html-css-fson-100-Parapoy/assets/mob_collection_img2-88dc8246.jpg" alt="milk women's blouse" width="347">
+                </div>
+                <div class="wrapper-about">
+                    <h3 class="product-name">Women's blouse Gorgany</h3>
+                    <p class="price-product">3350 UAH</p>
+                </div>
+            </li>
+            <li class="collection-item">
+                <div class="wrapper-imag-collection">
+                    <img srcset="/html-css-fson-100-Parapoy/assets/mob_collection_img3-5cefbd7e.jpg 335w, /html-css-fson-100-Parapoy/assets/tab_collection_img3-8639d297.jpg 342w, /html-css-fson-100-Parapoy/assets/desk_collection_img3-ad20ea92.jpg 347w, /html-css-fson-100-Parapoy/assets/mob_collection_img3@2x-a92652a3.jpg 670w, /html-css-fson-100-Parapoy/assets/tab_collection_img3@2x-82c24b5b.jpg 684w, /html-css-fson-100-Parapoy/assets/desk_collection_img3@2x-9d4d904c.jpg 694w"
+                        sizes="(min-width: 1280px) 347px, (min-width: 768px) 342px, (min-width: 375px) 335px"
+                        src="/html-css-fson-100-Parapoy/assets/mob_collection_img3-5cefbd7e.jpg" alt="white women's blouse" width="347">
+                </div>
+                <div class="wrapper-about">
+                    <h3 class="product-name">Women's blouse Crimea</h3>
+                    <p class="price-product">4000 UAH</p>
+                </div>
+            </li>
+            <li class="collection-item">
+                <div class="wrapper-imag-collection">
+                    <img srcset="/html-css-fson-100-Parapoy/assets/mob_collection_img4-fc40cd00.jpg 335w, /html-css-fson-100-Parapoy/assets/tab_collection_img4-2866c7be.jpg 342w, /html-css-fson-100-Parapoy/assets/desk_collection_img4-1899a49c.jpg 347w, /html-css-fson-100-Parapoy/assets/mob_collection_img4@2x-285fd0e0.jpg 670w, /html-css-fson-100-Parapoy/assets/tab_collection_img4@2x-f051c512.jpg 684w, /html-css-fson-100-Parapoy/assets/desk_collection_img4@2x-21eae1cd.jpg 694w"
+                        sizes="(min-width: 1280px) 347px, (min-width: 768px) 342px, (min-width: 375px) 335px"
+                        src="/html-css-fson-100-Parapoy/assets/desk_collection_img4-1899a49c.jpg" alt="milk men's blouse" width="347">
+                </div>
+                <div class="wrapper-about">
+                    <h3 class="product-name">Men's shirt Verkhovina</h3>
+                    <p class="price-product">3100 UAH</p>
+                </div>
+            </li>
+            <li class="collection-item">
+                <div class="wrapper-imag-collection">
+                    <img srcset="/html-css-fson-100-Parapoy/assets/mob_collection_img5-5e54999e.jpg 335w, /html-css-fson-100-Parapoy/assets/tab_collection_img5-3a97c5dc.jpg 342w, /html-css-fson-100-Parapoy/assets/desk_collection_img5-ab0ab66b.jpg 347w, /html-css-fson-100-Parapoy/assets/mob_collection_img5@2x-68815158.jpg 670w, /html-css-fson-100-Parapoy/assets/tab_collection_img5@2x-6213f4ae.jpg 684w, /html-css-fson-100-Parapoy/assets/desk_collection_img5@2x-88b0e9e7.jpg 694w"
+                        sizes="(min-width: 1280px) 347px, (min-width: 768px) 342px, (min-width: 375px) 335px"
+                        src="/html-css-fson-100-Parapoy/assets/desk_collection_img5-ab0ab66b.jpg" alt="black men's blouse" width="347">
+                </div>
+                <div class="wrapper-about">
+                    <h3 class="product-name">Mountain men's shirt</h3>
+                    <p class="price-product">3300 UAH</p>
+                </div>
+            </li>
+            <li class="collection-item">
+                <div class="wrapper-imag-collection">
+                    <img srcset="/html-css-fson-100-Parapoy/assets/mob_collection_img6-52cd074f.jpg 335w, /html-css-fson-100-Parapoy/assets/tab_collection_img6-528317a6.jpg 342w, /html-css-fson-100-Parapoy/assets/desk_collection_img6-a42e447e.jpg 347w, /html-css-fson-100-Parapoy/assets/mob_collection_img6@2x-9bbcee4b.jpg 670w, /html-css-fson-100-Parapoy/assets/tab_collection_img6@2x-0e900000.jpg 684w, /html-css-fson-100-Parapoy/assets/desk_collection_img6@2x-1867ffa1.jpg 694w"
+                        sizes="(min-width: 1280px) 347px, (min-width: 768px) 342px, (min-width: 375px) 335px"
+                        src="/html-css-fson-100-Parapoy/assets/desk_collection_img6-a42e447e.jpg" alt="white men's blouse" width="347">
+                </div>
+                <div class="wrapper-about">
+                    <h3 class="product-name">Men's shirt Yasen</h3>
+                    <p class="price-product">1700 UAH</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+      <section class="order-section">
+  <div class="order-green-bg" id="your-order"></div>
+  <div class="order-container">
+    <div class="order-img-wrap order-wrap">
+      <picture>
+        <source
+          srcset="/html-css-fson-100-Parapoy/assets/desk_form_img-05468757.jpg 1x, /html-css-fson-100-Parapoy/assets/desk_form_img-05468757.jpg 2x"
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="/html-css-fson-100-Parapoy/assets/tab_form_img-301704b9.jpg 1x, /html-css-fson-100-Parapoy/assets/tab_form_img@2x-c201a999.jpg 2x"
+          media="(min-width: 768px)"
+        />
+        <img
+          src="/html-css-fson-100-Parapoy/assets/tab_form_img-301704b9.jpg"
+          alt="blouse"
+          width="638"
+          height="521"
+          class="order-img"
+        />
+      </picture>
+    </div>
+    <div class="form-wrap order-wrap">
+      <h2 class="order-title">
+        <span class="order-title-span">Your order</span> is our priority:
+        Personalized approach and quality of service
+      </h2>
+      <form class="order-form">
+        <input
+          type="text"
+          name="user-name"
+          class="form-input"
+          required
+          id="user-name"
+          placeholder="Enter your full name"
+          pattern="[A-Za-z]+"
+          title="Only letters are allowed"
+        />
+        <input
+          type="email"
+          name="email"
+          class="form-input"
+          required
+          id="email"
+          placeholder="Enter your email"
+          pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+          title="Enter a valid email address"
+        />
+        <textarea
+          name="user-comment"
+          id="user-comment"
+          class="form-textarea"
+          placeholder="Comments"
+        ></textarea>
+        <button class="order-button" type="submit">
+          <span class="order-button-span">SEND</span>
+          <svg class="order-icon" width="24" height="24">
+            <use href="/html-css-fson-100-Parapoy/assets/icons-1e82c8d5.svg#icon-arrow"></use>
+          </svg>
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+      <section class="testimonials-section" id="testimonials">
+  <div class="testimonials-container">
+    <h2 class="testimonials-title">Testimonials</h2>
+    <ul class="testimonials-list">
+      <li class="testimonials-item">
+        <h3 class="testimonials-name">Maria Tkachuk</h3>
+        <p class="testimonials-text">
+          I was pleasantly surprised by the variety of embroidery offered by
+          Vyshyvanka Vibes. They have models for every taste - from classic to
+          modern. I bought an embroidered dress to celebrate a special occasion
+          and received impeccable service and refinement in every detail.
+        </p>
+        <img
+          src="/html-css-fson-100-Parapoy/assets/tkachuk-c25ce53d.png"
+          srcset="/html-css-fson-100-Parapoy/assets/tkachuk-c25ce53d.png 1x, /html-css-fson-100-Parapoy/assets/tkachuk@2x-db0f3883.png 2x"
+          alt="redhead woman"
+          width="72"
+          height="72"
+          class="testimonials-img"
+        />
+      </li>
+      <li class="testimonials-item">
+        <h3 class="testimonials-name">Sergey Rybachok</h3>
+        <p class="testimonials-text">
+          Vyshyvanka Vibes exceeds all my expectations! Their vyshyvanka are
+          simply masterpieces! I fell in love with the quality of the materials
+          and the skill of the artisans behind each product. This is my favorite
+          embroidery shop where I always find something special and unique.
+        </p>
+        <img
+          src="/html-css-fson-100-Parapoy/assets/rybachok-f27d8c9a.png"
+          srcset="/html-css-fson-100-Parapoy/assets/rybachok-f27d8c9a.png 1x, /html-css-fson-100-Parapoy/assets/rybachok@2x-5ff62dfa.png 2x"
+          alt="man in glasses"
+          width="72"
+          height="72"
+          class="testimonials-img"
+        />
+      </li>
+      <li class="testimonials-item">
+        <h3 class="testimonials-name">Natalia Chatuk</h3>
+        <p class="testimonials-text">
+          Vyshyvanka Vibes is a real find for everyone who appreciates Ukrainian
+          culture. Their embroidery reflects the spirit and traditions of our
+          people. I not only buy embroidered shirts for myself, but also give
+          them to my friends abroad as a symbol of our beauty and national
+          pride.
+        </p>
+        <img
+          src="/html-css-fson-100-Parapoy/assets/chatuk-4c42e4c4.png"
+          srcset="/html-css-fson-100-Parapoy/assets/chatuk-4c42e4c4.png 1x, /html-css-fson-100-Parapoy/assets/chatuk@2x-36d1d05e.png 2x"
+          alt="blonde woman"
+          width="72"
+          height="72"
+          class="testimonials-img"
+        />
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <div class="backdrop">
+  <div class="menu">
+    <div class="menu-header">
+      <a href="tel:+380684439426" class="contacts-menu">+380 (68) 443-94-26</a>
+      <button type="button" class="modal-button">
+        <img src="../img/header/menu/close-button.svg" alt="close" />
+      </button>
+    </div>
+
+    <ul class="menu-list">
+      <li><a href="#about-us" class="menu-item">About us</a></li>
+      <li>
+        <a href="#our-collection" class="menu-item">Our collection </a>
+      </li>
+      <li><a href="#your-order" class="menu-item">Customer order</a></li>
+      <li><a href="#testimonials" class="menu-item">Testimonials</a></li>
+    </ul>
+
+    <div class="menu-element">
+      <img
+        srcset="../img/header/menu/mob_menu_element.png@2x.png 2x"
+        src="../img/header/menu/mob_menu_element.png"
+        alt="menu-orniture"
+        class="menu-element-img"
+      />
+    </div>
+  </div>
+</div>
+
+    </main>
+    <footer class="footer">
+  <div class="container-footer footer-wrapper">
+    <ul class="footer-list list">
+      <li class="footer-list-item item">
+        <a href="№about-us" class="footer-link link">About us</a>
+      </li>
+      <li class="footer-list-item item">
+        <a href="#our-collection" class="footer-link link">Our collection</a>
+      </li>
+      <li class="footer-list-item item">
+        <a href="#your-order" class="footer-link link">Customer order</a>
+      </li>
+      <li class="footer-list-item item">
+        <a href="#testimonials" class="footer-link link">Testimonials</a>
+      </li>
+    </ul>
+
+    <h2 class="footer-accent">
+      A touch of
+      <span class="footer-accent-ukraine">Ukrainian</span> culture in every
+      embroidery
+    </h2>
+  </div>
+</footer>
+
+
+    
+  </body>
+</html>
